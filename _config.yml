@@ -17,7 +17,7 @@ title: 옌블로그입니다
 description: 블로그설명
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://yyeennyy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: just-the-docs/just-the-docs # for github-metadata
+repository: yyeennyy.github.io # for github-metadata
 
 permalink: pretty
 
