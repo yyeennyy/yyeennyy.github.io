@@ -7,13 +7,12 @@
 
 html {
   @include fs-4;
-
   scroll-behavior: smooth;
 }
 
 body {
   font-family: $body-font-family;
-  font-size: small;  //본문 폰트 사이즈
+  font-size: small;  // 본문 폰트 사이즈
   line-height: $body-line-height;
   color: $body-text-color;
   background-color: $body-background-color;
