@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 폴더
-nav_order: 2
+title: TIL
+nav_order: 1
 has_children: true
 # has_toc: false
 ---

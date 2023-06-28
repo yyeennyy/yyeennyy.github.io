@@ -1,25 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 옌블로그입니다
+title: 옌 기록 정리중
 description: 블로그설명
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://yyeennyy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: yyeennyy.github.io # for github-metadata
 
 permalink: pretty
+
+collections:
+  til:
+    output: true
+    permalink: /til/:year/:month/:day/:title
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -113,8 +107,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: 깃헙바로가기
-    url: https://github.com/yyeennyy/yyeennyy.github.io
+  - title: Github
+    url: https://github.com/yyeennyy
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -123,7 +117,7 @@ nav_external_links:
 back_to_top: true
 back_to_top_text: "위로 가기"
 
-footer_content: "푸터 콘텐츠"
+footer_content: "한창 만드는중"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
