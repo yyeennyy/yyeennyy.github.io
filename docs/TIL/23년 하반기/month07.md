@@ -46,3 +46,16 @@ nav_order: 2
 > 2. **HashMap, KeySet, Iterator**<br>
 > HashMap에서 keySet()을 뽑아 iterator()를 통해 Iterator객체를 얻었다.
 > for문에서 쓰기보다는 while문에서 hasNext()와 next()를 통해 다룬다.
+
+
+{: .new-title }
+> 2023.07.25 (목)
+> 
+> 1. **디자인패턴 - 싱글톤**<br>
+> - 가장 단순 방법은 private 생성자를 두고, 인스턴스 생성 메서드에서 null 체크하는거. 당연히 thread-safe하지 않음.
+> - thread-safe하게 만들기 위해 또 단순히 생각해보자면 synchronized 키워드를 사용할 수도 있겠지. 하지만 이것은 성능에 부하가 큼.
+> - static Singleton instance를 '미리 초기화'하는 방법. 그치만 만약 이 인스턴스가 생성 비용이 아주 크고, 메모리 할당량이 크고, 당장 사용하지 않을 거라면? 낭비! 그리고 필요로 하는 시점에 만들고 싶은데 그러지 못해..
+> - 'double checked locking!' synchronized 전후에 null체크를 한번씩 총 두번 하자. 그러면 멀티쓰레드에서 간혹 null안에 동시에 들어오는 상황에서만 (cost가 큰) synchronized 키워드를 사용하게 되고, 그런 멀티쓰레드의 동시접근 상황이 아닌 상황에서는 그냥 null체크로 충분하게 됨! 좀 더 부담이 없겠다. (이때, volatile을 이해해야 한다. 꽤나 복잡한 이야기. 공부하자.)
+> - 레이지로딩! 권장하는 방법 중 하나이다. static inner class를 두는 방법! 그리고 이 inner class 안에서 new하면 된다. thread-safe하며, lazy loading도 가능하고, 복잡한 이론적 배경도 없음.
+>
+> 지금 이 모든 방법은, 깨뜨릴 수 있는 다양한 코딩 방법들이 존재한다.  
