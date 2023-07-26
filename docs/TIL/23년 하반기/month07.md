@@ -79,6 +79,7 @@ nav_order: 2
 > 
 > - SOTA 모델 찾는 방법을 배움 : [Browse State-of-the-Art](https://paperswithcode.com/sota) 이 사이트에서 찾기 좋다
 > - 많은 공부가 된 관련 프로젝트 발견 : [(링크)](https://hajunyoo.oopy.io/projects/audio-alert-latefusion-project) 여기에서 많은 배경지식을 얻음! (피처 엔지니어링, fine tuning, early/late fusion(특히 early), 스펙트로그램 분류에 있어서 Densenet의 장점 등)
+> 
 > 2. **코테 - greedy**<br>
 > 오늘 BOJ2457공주님의정원 진지하게 풀었다. 어제 공부한거 적용하기 좋은 문제!<br> 
 > - 301~1101 날짜 범위니까 기껏해야 O(276N)이라는 것을 보았으면 좋았겠다.
