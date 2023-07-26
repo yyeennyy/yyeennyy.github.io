@@ -69,3 +69,18 @@ nav_order: 2
 > - 레이지로딩! 권장하는 방법 중 하나이다. static inner class를 두는 방법! 그리고 이 inner class 안에서 new하면 된다. thread-safe하며, lazy loading도 가능하고, 복잡한 이론적 배경도 없음.
 >
 > 지금 이 모든 방법은, 깨뜨릴 수 있는 다양한 코딩 방법들이 존재한다.  
+
+
+{: .new-title }
+> 2023.07.26 (금)
+> 
+> 1. **졸프 - 음성 데이터 기반 Classifier**<br>
+> 광고/노래 음성 분류기를 만들고 있었는데 확실히 만드려고 다시 자료조사에 나섰다. 오늘 배운 것은?<br>
+> 
+> - SOTA 모델 찾는 방법을 배움 : [Browse State-of-the-Art](https://paperswithcode.com/sota) 이 사이트에서 찾기 좋다
+> - 많은 공부가 된 관련 프로젝트 발견 : [(링크)](https://hajunyoo.oopy.io/projects/audio-alert-latefusion-project) 여기에서 많은 배경지식을 얻음! (피처 엔지니어링, fine tuning, early/late fusion(특히 early), 스펙트로그램 분류에 있어서 Densenet의 장점 등)
+> 2. **코테 - greedy**<br>
+> 오늘 BOJ2457공주님의정원 진지하게 풀었다. 어제 공부한거 적용하기 좋은 문제!<br> 
+> - 301~1101 날짜 범위니까 기껏해야 O(276N)이라는 것을 보았으면 좋았겠다.
+> - 결국 모든 t가 포함되어야하니까 t를 꽃이지는시간max만큼 늘려가면서 체크하면 깔끔했다.
+> - 꽃리스트를 굳이 내림차로 하고 꽃삭제하고 갱신하고 안해도 됐었다. 그래도 차분히 생각해서 올바른 알고리즘 만든 것은 칭찬!
