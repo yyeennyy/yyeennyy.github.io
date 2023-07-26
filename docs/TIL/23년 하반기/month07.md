@@ -49,7 +49,7 @@ nav_order: 2
 
 
 {: .new-title }
-> 2023.07.24 (수)
+> 2023.07.24 (월)
 > 1. **음성 데이터 특징**<br>
 > "광고/노래 음성 분류기"를 제작해야 한다. (졸프)<br>
 > 다양한 음성 특징을 기반으로 학습 데이터 생성에 노력했다.<br>
@@ -59,7 +59,7 @@ nav_order: 2
 
 
 {: .new-title }
-> 2023.07.25 (목)
+> 2023.07.25 (화)
 > 
 > 1. **디자인패턴 - 싱글톤**<br>
 > - 가장 단순 방법은 private 생성자를 두고, 인스턴스 생성 메서드에서 null 체크하는거. 당연히 thread-safe하지 않음.
@@ -72,16 +72,15 @@ nav_order: 2
 
 
 {: .new-title }
-> 2023.07.26 (금)
+> 2023.07.26 (수)
 > 
 > 1. **졸프 - 음성 데이터 기반 Classifier**<br>
 > 광고/노래 음성 분류기를 만들고 있었는데 확실히 만드려고 다시 자료조사에 나섰다. 오늘 배운 것은?<br>
-> 
-> - SOTA 모델 찾는 방법을 배움 : [Browse State-of-the-Art](https://paperswithcode.com/sota) 이 사이트에서 찾기 좋다
-> - 많은 공부가 된 관련 프로젝트 발견 : [(링크)](https://hajunyoo.oopy.io/projects/audio-alert-latefusion-project) 여기에서 많은 배경지식을 얻음! (피처 엔지니어링, fine tuning, early/late fusion(특히 early), 스펙트로그램 분류에 있어서 Densenet의 장점 등)
+> --> SOTA 모델 찾는 방법을 배움 : [Browse State-of-the-Art](https://paperswithcode.com/sota) 이 사이트에서 찾기 좋다<br>
+> --> 많은 공부가 된 관련 프로젝트 발견 : [(링크)](https://hajunyoo.oopy.io/projects/audio-alert-latefusion-project) 여기에서 많은 배경지식을 얻음! (피처 엔지니어링, fine tuning, early/late fusion(특히 early), 스펙트로그램 분류에 있어서 Densenet의 장점 등)
 > 
 > 2. **코테 - greedy**<br>
 > 오늘 BOJ2457공주님의정원 진지하게 풀었다. 어제 공부한거 적용하기 좋은 문제!<br> 
-> - 301~1101 날짜 범위니까 기껏해야 O(276N)이라는 것을 보았으면 좋았겠다.
-> - 결국 모든 t가 포함되어야하니까 t를 꽃이지는시간max만큼 늘려가면서 체크하면 깔끔했다.
-> - 꽃리스트를 굳이 내림차로 하고 꽃삭제하고 갱신하고 안해도 됐었다. 그래도 차분히 생각해서 올바른 알고리즘 만든 것은 칭찬!
+> --> 301~1101 날짜 범위니까 기껏해야 O(276N)이라는 것을 보았으면 좋았겠다.<br>
+> --> 결국 모든 t가 포함되어야하니까 t를 꽃이지는시간max만큼 늘려가면서 체크하면 깔끔했다.<br>
+> --> 꽃리스트를 굳이 내림차로 하고 꽃삭제하고 갱신하고 안해도 됐었다. 그래도 차분히 생각해서 올바른 알고리즘 만든 것은 칭찬!
