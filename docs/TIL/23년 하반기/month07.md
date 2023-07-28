@@ -104,3 +104,16 @@ nav_order: 2
 > 뭘 모르고 잘못 만든듯! 내일 정정해야겠다. 
 
 
+
+
+{: .new-title }
+> 2023.07.28 (금)
+>
+> 1. **특정 파일만 이전 커밋으로 돌리기 (checkout)**<br>
+> [블로그에 기록함](https://splendidlolli.tistory.com/624)<br>
+> checkout은 브랜치 이동만 하는 게 아니고, 특정 커밋으로 변경할 수도 있음을 배웠다.<br> 즉 **git checkout 브랜치명** 뿐만 아니라 **git checkout 커밋ID**할 수 있다.<br>
+> 팀원이 푸시한 split_module가 돌아가지 않았고, 이전 모듈이 잘 작동되었기 때문에 문제의 split_module만 이전 커밋으로 돌려서 개발을 진행했다.
+
+
+
+
