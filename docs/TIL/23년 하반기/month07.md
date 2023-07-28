@@ -114,13 +114,22 @@ nav_order: 2
 > checkout은 브랜치 이동만 하는 게 아니고, 특정 커밋으로 변경할 수도 있음을 배웠다.<br> 즉 **git checkout 브랜치명** 뿐만 아니라 **git checkout 커밋ID**할 수 있다.<br>
 > 팀원이 푸시한 split_module가 돌아가지 않았고, 이전 모듈이 잘 작동되었기 때문에 문제의 split_module만 이전 커밋으로 돌려서 개발을 진행했다.
 >
-> 2. **어제 Densenet 모델이 이상했던 원인을 발견!**<br>
-> 나의 오타 실수 ㅎㅎ<br>
+> 2. **어제 Densenet 모델이 이상했던 원인: 오타**<br>
 > ad데이터랑 music데이터를 섞어야 하는데 ad데이터랑 ad데이터를 섞는 오타를 냈다.<br>
 > 수정해서 다시 Densenet Classifier 결과 확인! 와.. 너무 좋은데?<br>
 > --> Test Accuracy: 1.0<br>
 > --> Loss: 0.008<br>
-> 그러나 실전 데이터셋에 테스트해보니까 좋지 않았다. spectrogram img size를 키워 적용해보는중이다.
+> 그러나 실전 데이터셋에 테스트해보니까 좋지 않았다. <br>
+> 
+> 3. **피처사이즈를 키워 분류모델을 개선했다**<br>
+> ▶ 스펙트로그램 size:<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;- 전: 64x64*3<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;- 후: 256x256*3<br>
+> ▶ 인코딩 후 피처 size:<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;- 전: 32x32x3<br>
+> &nbsp;&nbsp;&nbsp;&nbsp;- 후: 128*128*3<br>
+> 개선이 되었다.<br>
+> 과정 정리: https://colab.research.google.com/drive/1rP-6Kyf6bo3XEGKDx6gHTnu7XczNDuPI
 
 
 
