@@ -113,6 +113,13 @@ nav_order: 2
 > [블로그에 기록함](https://splendidlolli.tistory.com/624)<br>
 > checkout은 브랜치 이동만 하는 게 아니고, 특정 커밋으로 변경할 수도 있음을 배웠다.<br> 즉 **git checkout 브랜치명** 뿐만 아니라 **git checkout 커밋ID**할 수 있다.<br>
 > 팀원이 푸시한 split_module가 돌아가지 않았고, 이전 모듈이 잘 작동되었기 때문에 문제의 split_module만 이전 커밋으로 돌려서 개발을 진행했다.
+>
+> 2. **어제 Densenet 모델이 이상했던 원인을 발견!**<br>
+> 나의 오타 실수 ㅎㅎ<br>
+> ad데이터랑 music데이터를 섞어야 하는데 ad데이터랑 ad데이터를 섞는 오타를 냈다.<br>
+> 수정해서 다시 Densenet Classifier 결과 확인! 와.. 너무 좋은데?<br>
+> --> Test Accuracy: 1.0<br>
+> --> Loss: 0.008<br>
 
 
 
