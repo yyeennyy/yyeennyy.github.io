@@ -120,6 +120,7 @@ nav_order: 2
 > 수정해서 다시 Densenet Classifier 결과 확인! 와.. 너무 좋은데?<br>
 > --> Test Accuracy: 1.0<br>
 > --> Loss: 0.008<br>
+> 그러나 실전 데이터셋에 테스트해보니까 좋지 않았다. spectrogram img size를 키워 적용해보는중이다.
 
 
 
