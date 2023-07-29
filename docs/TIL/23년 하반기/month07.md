@@ -129,8 +129,10 @@ nav_order: 2
 > &nbsp;&nbsp;&nbsp;&nbsp;- 전: 32x32x3<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;- 후: 128*128*3<br>
 > 개선이 되었다.<br>
-> 과정 정리: https://colab.research.google.com/drive/1rP-6Kyf6bo3XEGKDx6gHTnu7XczNDuPI
+> 과정 정리: 
 
-
-
-
+{: .new-title }
+> 2023.07.30 (토)
+> 
+> 1. **분류기 개선**<br>
+> 2. **졸프회의**<br>
