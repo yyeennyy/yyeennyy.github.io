@@ -23,5 +23,12 @@ nav_order: 3
 > 2. **Dockerfile 간소화**<br>
 > 지금까지는 flask 설치 후 뽑아낸 requirement.txt를 전부 Dockerfile에서 설치했다.<br>
 > 큰 인식 없이 그냥 했었는데, 사실 pip install flask만 있으면 충분하므로 아예 없앴다.
+>
+> 3. **git - revert와 reset**<br>
+> - revert: 되돌렸다는 커밋기록을 남기며 되돌리므로, 이미 원격지에 push한 뒤라면 revert가 적절함<br>
+> - reset: 커밋 자체를 삭제하므로, 원격지에 push한 뒤라라면 함부로 reset하면 안됨<br>
+>   - 필요시 로컬에서만 사용하자.
+> 
+> 
 
 
