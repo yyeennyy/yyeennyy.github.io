@@ -174,8 +174,8 @@ nav_order: 2
 > 사용할 pretrained model의 default input이기 때문.<br>
 >   - **피처 개선**<br>
 > 팀회의 이후 early fusion이 불필요하다는 의견 수용<br>
->       - 개선 전: 불분명한 피처 + 의미없는 채널<br>
->       - 개선 후: 3종의 스펙트로그램 데이터를 각 채널로 두고 model에 바로 넣음<br>
+>   → 개선 전: 불분명한 피처 + 의미없는 채널<br>
+>   → 개선 후: 3종의 스펙트로그램 데이터를 각 채널로 두고 model에 바로 넣음<br>
 >   - **스펙트로그램 이미지 RGB**<br>
 >       RGB는 의미 없다! (그냥 수치의 컬러맵)<br>
 > - 진행함<br>
@@ -183,4 +183,3 @@ nav_order: 2
 >   - **Classifier: Densenet121과 Resnet50을 비교**<br>
 > - 결과 : 나름 대만족<br>
 > [**▶ 최종 ipynb 바로가기 ◀**](https://colab.research.google.com/drive/1rP-6Kyf6bo3XEGKDx6gHTnu7XczNDuPI)
-
