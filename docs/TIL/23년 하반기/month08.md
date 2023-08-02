@@ -28,7 +28,21 @@ nav_order: 3
 > - revert: 되돌렸다는 커밋기록을 남기며 되돌리므로, 이미 원격지에 push한 뒤라면 revert가 적절함<br>
 > - reset: 커밋 자체를 삭제하므로, 원격지에 push한 뒤라라면 함부로 reset하면 안됨<br>
 >   - 필요시 로컬에서만 사용하자.
+
+
+
+{: .new-title }
+> 2023.08.01 (월)
 > 
+> 1. **스펙트로그램 정규화**<br>
+> [블로그 기록: 스펙트로그램 정규화 필요성 (음성처리)](https://splendidlolli.tistory.com/626)<br>
+> ✨ STFT:  np.log(1 + 1000 * np.abs(stft))<br>
+> ✨ MFCC: min-max<br>
+> ✨ Mel spectrogram: dB로 변환<br>
+> 적절한 정규화방법을 적용하려 노력했다.<br>
 > 
+
+
+
 
 
