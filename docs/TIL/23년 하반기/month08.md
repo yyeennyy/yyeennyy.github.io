@@ -93,4 +93,11 @@ nav_order: 3
 > [블로그 글: gensim 설치 혹은 import 오류 해결기 (잘 체크하기!)](https://splendidlolli.tistory.com/627)
 
 
+{: .new-title }
+> 2023.08.08 (화)
+> 1. **word2vec에다가 tf-idf를 합친 문단인식기술 구현**<br>
+> 오 아직 완성은 안 했지만 기대된다. 값이 꽤 괜찮아보이는걸? 집가서 이어서 해야지 
+
+
+
 
